@@ -1,0 +1,79 @@
+.app{
+     padding: 0rem 2.5rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.header {
+     background-color:#56ba95;
+     color:white;
+     padding: 4rem 5rem 3rem ;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.header-emphasis {
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+     text-shadow: 2px 2px grey;
+}
+.filters {
+     background-color: #3992ec;
+     justify-content: center;
+     display: flex;
+     flex-flow: row wrap;
+}
+.filter {
+     min-width: 16.5%;
+     min-height: 2rem;
+     padding: 0 1rem;
+     margin:0.7rem;
+     border: none;
+     border-radius: 3.5px;
+}
+.hotels {
+     min-width: 95%;
+     padding:0 4.5% 0;
+     margin: 3.7rem 2rem;
+     display: flex;   
+     flex-flow: row wrap;
+     justify-content: flex-start;
+}
+.hotel-card {
+     margin: 0.6rem;
+}
+.card-panel-container {
+     list-style-type: none;
+     background-color: white;    
+     min-height: 2rem;
+     margin: 0px 0.7rem 0.73rem 0.7rem;
+}
+.icon {
+     color: white;
+     background-color: #3992ec;   
+     border-top-left-radius: 3.5px;
+     border-bottom-left-radius: 3.5px;
+     min-height: 2rem;
+     padding: 0.32rem 0.7rem 0.55rem;
+     margin: 0 0.7rem 0 0;
+}
+.location-panel-item {
+     min-height: 2rem;
+     background-color: whitesmoke;
+     border-radius: 3.5px;
+     padding: 0.15rem 0.7rem 0.35rem 0;
+     width: 17rem;
+}
+.rooms-panel-item {
+     min-height: 2rem;
+     background-color: whitesmoke;
+     border-radius: 3.5px;
+     padding: 0.33rem 0.7rem 0.57rem 0;
+     margin: 0 1rem 0 0;
+     width: 18rem;
+}
+.price-panel-item {
+     border-radius: 3.5px;
+}
+.btn-custom {
+     background-color:#56ba95;
+     margin: 0.6rem 0 0 0;
+}
